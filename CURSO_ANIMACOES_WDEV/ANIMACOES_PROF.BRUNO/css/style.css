@@ -1,0 +1,32 @@
+p{
+
+width: 260px;
+height: 260px;
+border:1px solid #000;
+border-radius: 10px;
+padding: 10px;
+text-align: justify;
+position:relative;
+left: 500px;
+top:500px;
+animation-name: anima1, anima2;
+animation-duration: 3s;
+animation-timing-function:linear;
+animation-fill-mode:both;
+animation-iteration-count:infinite;
+animation-delay: 0s, 2s;
+animation-play-state: running;/*apesar de ser infinite, dei o paused*/
+/*podemos determinar a animação que começará primeiro tipo: troca anima1 para anima2*/
+animation-direction: alternate;
+}
+
+@keyframes anima1  {
+    20% {transform: rotate(0deg); left:0px;}
+    80% {transform: rotate(260deg); left:500px;}
+}
+
+@keyframes anima2 {
+    20% {background-color: blanchedalmond;}
+    80% {background-color: blueviolet;}
+}
+

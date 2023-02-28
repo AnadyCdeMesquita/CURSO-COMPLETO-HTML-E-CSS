@@ -1,0 +1,99 @@
+
+
+h1{
+    transition: all 1s ease-in-out;
+}
+
+h1{
+    background-color: blanchedalmond;
+}
+
+
+h1:hover{
+    background-color: brown;
+}
+
+a{
+    color:yellow;
+    display: block;
+}
+
+a:link{
+    color:pink;
+}
+
+a:visited{
+    color:rgb(32, 218, 82);
+}
+
+a:active{
+    color:red;
+}
+
+
+
+input:focus{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+input:disabled{
+     background-color: blueviolet;
+     cursor:not-allowed;
+}
+
+input:checked{
+    width: 50px;
+    height: 50px;
+}
+
+input:checked + p {
+    background-color: coral;
+}
+
+.pai .filho li{
+    background-color: darkmagenta;
+}
+
+.pai .filho li:first-child{
+    background-color: darkorange;
+}
+
+.pai .filho li:last-child{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.aprendernot p:not(.notcolor){
+   color: rgb(251, 0, 255);
+}
+
+.notnot  input:not(checked) + p{
+
+    color: darkgreen;
+}
+
+.ntchild li:nth-child(even){
+    background-color: crimson;
+}
+
+.ntchild li:nth-child(odd){
+    background-color:yellowgreen;
+   
+}
+
+main p:nth-child(3n+5){
+    background-color: blueviolet;
+}
+
+main p:last-child{
+    background-color: rgb(47, 36, 144);
+    color: antiquewhite;
+}
+
+.testando1 p:nth-child(3n){
+    background-color: aqua;
+}
+   

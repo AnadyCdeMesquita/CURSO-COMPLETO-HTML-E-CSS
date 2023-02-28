@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    width: 100%;
+margin-bottom: 500px;
+}
+
+.transitionbackground {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+.transitionbackground:hover {
+    background-color: aqua;
+}
+
+.transitionSize {
+    background-color: rgb(255, 153, 0);
+    width: 100px;
+    height: 100px;
+    transition: width 1s ease-in-out .5s;
+
+}
+
+.transitionSize:hover {
+  width: 300px;
+}
+
+.transitionfont {
+    background-color: rgb(255, 153, 0);
+    width: 100px;
+    height: 100px;
+    transition: font-size 1s;
+    
+
+}
+
+.transitionfont:hover {
+    font-size: 20px;
+}
+
+
+
+
+.transitionwidth {
+    background-color: rgb(0, 255, 123);
+    width: 100px;
+    height: 100px;
+    transition: width 0.5 height 1s;
+}
+
+.transitionwidth:hover {
+    width: 200px;
+    height: 250px;
+    
+}
+
+.transitiontransform {
+    background-color: rgb(38, 0, 255);
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s ;
+}
+
+.transitiontransform:hover {
+   /* transform: translate(50px,100px);Este elemento div é movido 50 pixels para a direita e 100 pixels para baixo de sua posição atual.*/
+   /*transform: rotate(-20deg) O exemplo a seguir gira o elemento <div> no sentido horário com 20 graus, -20 anti-horário*/
+   /*transform: scale(2, 3) pode ser número quebrado;O exemplo a seguir aumenta o elemento <div> para duas vezes sua largura original e três vezes sua altura original: 
+   transform: scale(0.5, 0.5);*/
+   /*O scaleY()método aumenta ou diminui a altura de um elemento. scale-x()largura*/
+   /*transform: skewX(20deg)-O skewX()método inclina um elemento ao longo do eixo X pelo ângulo dado, o skewy(), tem tambem o skew() */
+   /*transform: matrix(1, -0.3, 0, 1, 0, 0);*/
+  /* transform: rotateX(150deg);O rotateX()método gira um elemento em torno de seu eixo X em um determinado grau*/
+  /*transform: rotateY(150deg); O rotateY()método gira um elemento em torno de seu eixo Y em um determinado grau:*/
+
+}
+
+.transitionDelay {
+    background-color: rgb(255, 0, 187);
+    width: 150px;
+    height: 150px;
+    transition: width 1s 2s, height 1s;
+}
+
+.transitionDelay:hover {
+    width: 300px;
+    height: 350px;
+    
+}
+
+form{
+margin-top: 100px;
+background-color: antiquewhite;
+width: 300px;
+height: 300px;
+
+}
+
+input[type=checkbox]{
+width: 25px;
+height: 25px;
+transition: transform 1s;
+}
+
+input[type=checkbox]:checked{
+transform:rotate(-20deg)
+}
+
+.radiobox{
+    margin-top:100px;
+    background-color: rgb(224, 250, 215);
+    width: 300px;
+    height: 300px;
+
+}
+
+input[type=radio]{
+width: 50px;
+height: 50px;
+transition: transform 1s;
+
+}
+
+input[type=radio]:checked{
+    width: 50px;
+    height: 50px;
+    transform: scale(0.5, 0.5);
+    }
+
+    .formularios{
+        
+        margin-left: 50%;
+        margin-bottom: 150px;
+       padding: 50px;
+        background-color: rgb(223, 213, 213);
+        width: 350px;
+        height: 300px;
+        
+        }
+
+        input[type=text]{
+        width: 100px;
+        height: 100px;
+        outline: none;
+        border: none;
+        transform: width 1s linear;
+        }
+
+        input[type=text]:focus{
+        width: 300px;
+       
+        
+        }
+
+      
+    
+        
+    
+
+
+
+

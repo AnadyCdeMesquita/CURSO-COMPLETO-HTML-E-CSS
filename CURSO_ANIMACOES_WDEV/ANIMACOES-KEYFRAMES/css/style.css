@@ -1,0 +1,186 @@
+body{
+background-color: black;
+}
+
+/*.div1 {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    background-color: red;
+    animation: fade 1s;
+
+  }
+ */
+ /* @keyframes fade{
+
+    from {opacity: 0;}
+    to {opacity: 0.5;}
+  }
+
+
+@keyframes fade{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.div2 {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    position: relative;
+    animation: example 4s;
+
+  }
+
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } 
+
+  .div3{
+    margin-bottom: 200px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation: example1 4s 2s;
+  }
+
+  /*animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;*/
+
+  /*@keyframes example1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } 
+*/
+  /*animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3; O exemplo a seguir executará a animação 3 vezes antes de parar:*/
+
+  /*.div4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation: example2 4s 3;
+  }
+
+  @keyframes example2 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } 
+ 
+ /* .div5 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    /*animation: example3 4s infinite;
+  }
+*/
+  /*@keyframes example3 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }*/ 
+    
+  /* animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;O exemplo a seguir usa o valor "infinito" para fazer a animação continuar para sempre*/
+
+  .div6{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation: example4 4s reverse;
+  }
+
+  @keyframes example4 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } 
+
+  /*A animation-directionpropriedade especifica se uma animação deve ser reproduzida para frente, para trás ou em ciclos alternados.
+
+A propriedade animation-direction pode ter os seguintes valores:
+
+normal- A animação é reproduzida normalmente (para frente). Isso é padrão
+reverse- A animação é reproduzida na direção inversa (para trás)
+alternate - A animação é reproduzida primeiro para frente e depois para trás
+alternate-reverse- A animação é reproduzida primeiro para trás e depois para a frente*/
+
+div {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite ease-out;
+  }
+  
+ 
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+
+  .preencimento{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: preencher 3s forwards;
+}
+/*A propriedade animation-fill-mode pode ter os seguintes valores:
+
+none- Valor padrão. A animação não aplicará nenhum estilo ao elemento antes ou depois de sua execução
+forwards- O elemento manterá os valores de estilo definidos pelo último quadro-chave (depende da direção da animação e da contagem de iterações da animação)
+backwards- O elemento obterá os valores de estilo definidos pelo primeiro quadro-chave (depende da direção da animação) e os reterá durante o período de atraso da animação
+both- A animação seguirá as regras tanto para frente quanto para trás, estendendo as propriedades da animação em ambas as direções*/
+
+@keyframes preencher {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+  }
+
+
+  img{
+ 
+  margin-top: 400px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: aviao;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+  
+
+  }
+
+  @keyframes aviao {
+    from{left: 300px;}
+    to{left: 1000px;}
+    
+  }
+  

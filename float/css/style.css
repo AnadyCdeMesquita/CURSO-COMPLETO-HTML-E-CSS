@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ .container{
+    padding: 50px;
+    }
+
+.img-float{
+height: 200px;
+width: 200px;
+float:left;
+
+}
+
+.float-right{
+float:right;
+}
+
+.div-float{
+overflow: auto;
+
+}
+
+.p-float{
+clear:both;
+}
